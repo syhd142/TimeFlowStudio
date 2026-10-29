@@ -1,6 +1,19 @@
 # TimeFlow Studio
 
-[简体中文](README.zh-CN.md) · English
+<p align="center">
+  <strong>A native macOS workflow for timelapse, deflicker, and star trails.</strong>
+</p>
+
+<p align="center">
+  <a href="README.zh-CN.md">简体中文</a> · English ·
+  <a href="../../releases">Download Beta</a> ·
+  <a href="FEATURE_CHECKLIST.md">Feature checklist</a> ·
+  <a href="../../issues">Report an issue</a>
+</p>
+
+![TimeFlow Studio editing a 950-frame night-sky sequence](docs/images/timeflow-main-window.jpg)
+
+<p align="center"><sub>Real project view: image browser, luminance analysis, correction curves, and keyframe controls.</sub></p>
 
 TimeFlow Studio is a native macOS workflow for turning image sequences into
 timelapse, star-trail growth, and mixed timelapse-to-star-trail videos. It is an
@@ -9,6 +22,25 @@ AVFoundation.
 
 > **Beta software:** keep backups of source images and XMP sidecars. Test an
 > export before relying on it for important work.
+
+## See it in action
+
+<table>
+  <tr>
+    <th width="50%">Star-trail growth</th>
+    <th width="50%">Timelapse → star trail</th>
+  </tr>
+  <tr>
+    <td><img src="docs/images/star-trail-growth.gif" alt="Stars gradually growing into trails over a mountain landscape" width="100%"></td>
+    <td><img src="docs/images/timelapse-to-star-trail.gif" alt="A night timelapse transitioning into accumulated star trails" width="100%"></td>
+  </tr>
+  <tr>
+    <td>Build trails progressively with optional comet tails, gap filling, meteor preservation, and a final hold.</td>
+    <td>Keep the opening as a normal timelapse, then transition into accumulated trails in one export.</td>
+  </tr>
+</table>
+
+<sub>Animated previews are compressed for GitHub. Export quality follows the resolution, codec, bitrate, and color-space settings selected in the app.</sub>
 
 ## Highlights
 

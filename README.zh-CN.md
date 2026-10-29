@@ -1,10 +1,42 @@
 # TimeFlow Studio
 
-简体中文 · [English](README.md)
+<p align="center">
+  <strong>原生 macOS 延时摄影、去闪烁与星轨制作工具。</strong>
+</p>
+
+<p align="center">
+  简体中文 · <a href="README.md">English</a> ·
+  <a href="../../releases">下载 Beta</a> ·
+  <a href="FEATURE_CHECKLIST.md">功能清单</a> ·
+  <a href="../../issues">反馈问题</a>
+</p>
+
+![TimeFlow Studio 正在处理一个包含 950 帧的星空序列](docs/images/timeflow-main-window.jpg)
+
+<p align="center"><sub>真实项目界面：图片浏览、亮度分析、修正曲线和关键帧控制。</sub></p>
 
 TimeFlow Studio 是一款原生 macOS 图片序列处理工具，可制作延时摄影、星轨增长视频，以及从延时摄影自然过渡到星轨的混合视频。软件使用 SwiftUI、Core Image、ImageIO 和 AVFoundation 独立开发。
 
 > **Beta 提醒：** 请保留原始照片和 XMP 边车文件的备份。重要项目使用前，先用短序列验证完整流程。
+
+## 效果展示
+
+<table>
+  <tr>
+    <th width="50%">星轨增长</th>
+    <th width="50%">延时摄影 → 星轨</th>
+  </tr>
+  <tr>
+    <td><img src="docs/images/star-trail-growth.gif" alt="山间夜空中的星星逐渐累积为星轨" width="100%"></td>
+    <td><img src="docs/images/timelapse-to-star-trail.gif" alt="普通星空延时逐渐过渡为累积星轨" width="100%"></td>
+  </tr>
+  <tr>
+    <td>逐帧累积星轨，可设置彗星尾、断点填充、流星保留和结尾停留。</td>
+    <td>前半段保持普通延时摄影，后半段自然过渡为累积星轨，一次完成导出。</td>
+  </tr>
+</table>
+
+<sub>以上动图为适配 GitHub 而压缩的预览；实际导出质量取决于 App 中选择的分辨率、编码器、码率和色彩空间。</sub>
 
 ## 主要功能
 
