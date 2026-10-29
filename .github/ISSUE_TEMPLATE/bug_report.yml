@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible crash, incorrect result, or workflow problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please do not upload private photos, metadata, or local paths.
+  - type: input
+    id: version
+    attributes:
+      label: TimeFlow Studio version
+      placeholder: 0.1.0-beta.1
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS and Mac model
+      placeholder: macOS 14.7, MacBook Pro M2 Pro
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include source format, frame count, selected range, and export settings.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed private photos, metadata, credentials, and personal paths.
+          required: true

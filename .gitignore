@@ -1,0 +1,10 @@
+.build/
+dist/
+.DS_Store
+*.timeflow
+*.timeflow-recovery.json
+.swiftpm/
+xcuserdata/
+
+# Internal research notes are intentionally excluded from the public project.
+/LRTIMELAPSE_CLEAN_ROOM_MATRIX.md

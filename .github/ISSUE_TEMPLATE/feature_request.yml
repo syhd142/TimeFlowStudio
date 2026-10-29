@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a focused workflow or usability improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user workflow and why the current behavior is insufficient.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: provenance
+    attributes:
+      label: Independent implementation
+      options:
+        - label: This request does not include proprietary code, assets, or access-control bypass material.
+          required: true
